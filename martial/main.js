@@ -6,7 +6,7 @@ let loadimage = (src, callback) => {
   img.src = src;
 };
 let imagepath = (imagenumber, animations) => {
-  return animations + "/" + String(imagenumber) + ".png";
+  return "martial/" + animations + "/" + String(imagenumber) + ".png";
 };
 
 let frames = {
