@@ -6,8 +6,8 @@ let loadimage = (src, callback) => {
   img.src = src;
 };
 let imagepath = (imagenumber, animations) => {
-  return "images/martial/"+ animations + "/" + String(imagenumber) + ".png";
-  // /martial-arts/martial/idle/
+  return "https://github.com/ramyapriya0025/martial-arts/blob/main/martial/"+ animations + "/" + String(imagenumber) + ".png";
+  // https://github.com/ramyapriya0025/martial-arts/blob/main/martial/idle/1.png
 };
 
 let frames = {
